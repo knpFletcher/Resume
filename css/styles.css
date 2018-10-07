@@ -43,18 +43,8 @@ main ul {
   list-style: square url("../fonts/svg.xml");
 }
 
-.no-bullet-point {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.interests li, .skills li {
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
-  text-align: center;
-
+.interests li {
+  border: 2px solid #222;
 }
 
 .skills li {
@@ -62,6 +52,19 @@ main ul {
   color: #fff;
 }
 
-.interests li {
-  border: 2px solid #222;
+.interests li, .skills li {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.no-bullet-point {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  /* for desktop */
 }
