@@ -45,6 +45,19 @@ header p {
   color: #fff;
 }
 
+header hr {
+  border: 1px solid #fff;
+  text-align: left;
+  margin-left: 0;
+}
+
+hr {
+  border: 1px solid #28a598;
+  text-align: left;
+  margin-left: 0;
+  max-width: 80%;
+}
+
 img {
   width: 30px;
 }
@@ -91,6 +104,10 @@ main ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.section-divider {
+  width: 20%;
 }
 
 @media only screen and (min-width: 768px) {
