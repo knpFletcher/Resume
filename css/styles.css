@@ -2,8 +2,14 @@
   font-family: 'Unbuntu', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 address {
   font-style: normal;
+  line-height: 1.7;
 }
 
 body {
@@ -37,6 +43,10 @@ header {
 
 header p {
   color: #fff;
+}
+
+img {
+  width: 30px;
 }
 
 main ul {
