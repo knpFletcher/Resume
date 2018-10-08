@@ -140,16 +140,25 @@ img {
     margin-top: 25px;
   }
 
-  .date {
+  .date, .location {
     margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 
   .date-location {
     display: flex;
     justify-content: space-between;
-    margin: 0px;
+    margin: 5px 0 15px 0;
     font-size: 1.2em;
+    max-height: 1.2em;
   }
+
+  .education {
+	margin: 10px 0 10px 0;
+	font-size: .8em;
+	max-height: .8em;
+}
 
   .flex-container {
     flex-direction: row;
