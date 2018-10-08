@@ -122,6 +122,10 @@ img {
 @media only screen and (min-width: 768px) {
 
   /* for desktop */
+  address .no-bullet-point {
+    margin-top: 0;
+  }
+
   address li:nth-child(even) {
     margin-bottom: 15px;
   }
