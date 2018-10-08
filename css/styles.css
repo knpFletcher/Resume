@@ -9,7 +9,6 @@ a {
 
 address {
   font-style: normal;
-  line-height: 1.7;
 }
 
 body {
@@ -123,6 +122,9 @@ img {
 @media only screen and (min-width: 768px) {
 
   /* for desktop */
+  address li:nth-child(even) {
+    margin-bottom: 15px;
+  }
 
   body {
     margin-left: 50px;
