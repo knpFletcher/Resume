@@ -134,6 +134,14 @@ img {
     margin: 40px 0 0;
   }
 
+  #coursework {
+    columns: 2;
+  }
+
+  #courses_second, #courses_third {
+    margin-bottom: 10%;
+  }
+
   #work-experience {
     margin-top: 0;
   }
