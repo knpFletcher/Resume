@@ -14,7 +14,6 @@ address {
 
 body {
   background-color: #fff;
-  margin-left: 50px;
 }
 
 h1, h4 {
@@ -35,7 +34,14 @@ h2 {
 }
 
 h3 {
-  font-weight: 550;
+  font-weight: 600;
+  margin: 0;
+}
+
+h5 {
+	margin: 0;
+	font-size: 1.2em;
+	font-weight: 300;
 }
 
 h6 {
@@ -117,6 +123,15 @@ img {
 @media only screen and (min-width: 768px) {
 
   /* for desktop */
+
+  body {
+    margin-left: 50px;
+  }
+
+  h2 {
+    margin: 40px 0 0;
+  }
+
   #work-experience {
     margin-top: 0;
   }
@@ -139,6 +154,9 @@ img {
   .flex-container {
     flex-direction: row;
     width: 90%;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: auto;
   }
 
   .interests li, .skills li {
@@ -150,7 +168,32 @@ img {
     flex-basis: 25%;
   }
 
+  .left * {
+    margin-right: 15px;
+  }
+
   .right {
     flex-basis: 75%;
+  }
+
+  .right li {
+      margin-bottom: 10px;
+  }
+
+  .right ul {
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style-position: inside;
+}
+
+  .section-title {
+    border: 1px solid #28a598;
+    text-align: left;
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .left hr {
+    max-width: 80%;
   }
 }
