@@ -120,6 +120,11 @@ main ul {
   #work-experience {
     margin-top: 0;
   }
+
+  #work-2 {
+    margin-top: 25px;
+  }
+
   .date {
     margin-left: 0px;
   }
