@@ -43,6 +43,19 @@ main ul {
   list-style: square url("../fonts/svg.xml");
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 .interests li {
   border: 2px solid #222;
 }
@@ -59,6 +72,11 @@ main ul {
   text-align: center;
 }
 
+.skills, .interests {
+  -ms-align-items: space-between;
+  align-items: space-between;
+}
+
 .no-bullet-point {
   list-style-type: none;
   margin: 0;
@@ -67,4 +85,7 @@ main ul {
 
 @media only screen and (min-width: 768px) {
   /* for desktop */
+  .flex-container {
+    flex-direction: row;
+  }
 }
