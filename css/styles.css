@@ -120,5 +120,13 @@ main ul {
 
   .flex-container {
     flex-direction: row;
+    width: 90%;
+  }
+  .left {
+    flex-basis: 25%;
+  }
+
+  .right {
+    flex-basis: 75%;
   }
 }
