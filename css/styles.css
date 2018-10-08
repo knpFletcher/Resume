@@ -38,9 +38,9 @@ h3 {
 }
 
 h5 {
-	margin: 5px 0;
-	font-size: 1.2em;
-	font-weight: 300;
+  margin: 5px 0;
+  font-size: 1.2em;
+  font-weight: 300;
 }
 
 h6 {
@@ -157,10 +157,10 @@ img {
   }
 
   .education {
-	margin: 10px 0 10px 0;
-	font-size: .8em;
-	max-height: .8em;
-}
+    margin: 10px 0 10px 0;
+    font-size: .8em;
+    max-height: .8em;
+  }
 
   .flex-container {
     flex-direction: row;
