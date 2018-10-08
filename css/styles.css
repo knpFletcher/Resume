@@ -111,7 +111,13 @@ main ul {
 }
 
 @media only screen and (min-width: 768px) {
+
   /* for desktop */
+  .date-location {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .flex-container {
     flex-direction: row;
   }
