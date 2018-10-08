@@ -120,9 +120,15 @@ main ul {
   #work-experience {
     margin-top: 0;
   }
+  .date {
+    margin-left: 0px;
+  }
+
   .date-location {
     display: flex;
     justify-content: space-between;
+    margin: 0px;
+    font-size: 1.2em;
   }
 
   .flex-container {
