@@ -70,11 +70,6 @@ img {
   width: 20px;
 }
 
-main ul {
-  list-style: square url("../fonts/svg.xml");
-  line-height: 1.3;
-}
-
 .column {
   display: flex;
   flex-direction: column;
@@ -108,6 +103,11 @@ main ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.right ul {
+  list-style: square url("../fonts/svg.xml");
+  line-height: 1.3;
 }
 
 .section-divider {
