@@ -11,4 +11,4 @@ A website recreation of my resume document using HTML and CSS, featuring a respo
 * Accent color adjusted for better contrast
 * Links to relevant contact info
 
-![Original Design Document](/img/design.jpg)
+<img src="/img/design.jpg" alt="Original Design Document" width="300">
