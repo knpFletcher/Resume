@@ -7,8 +7,8 @@ A website recreation of my resume document using HTML and CSS, featuring a respo
 * FlexBox
 
 ## Key Differences
-* Responsive Design
+* Mobile responsive design
 * Accent color adjusted for better contrast
 * Links to relevant contact info
 
-![Original Design Document](/img/design.jpg)
+![Original Design Document](/img/design.jpg =500px)
