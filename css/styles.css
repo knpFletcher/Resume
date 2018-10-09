@@ -163,7 +163,7 @@ p {
 
 .right ul {
   line-height: 1.5;
-  list-style: square url("../fonts/svg.xml");
+  list-style: square url('../img/icons8-unchecked-checkbox-10.png');
   margin: 0 15px;
   padding-left: 0;
 }
