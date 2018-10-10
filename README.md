@@ -6,6 +6,8 @@ A website recreation of my resume document using HTML and CSS, featuring a respo
 * CSS
 * FlexBox
 
+![A scrolling preview of the resume website on a mobile device to showcase the mobile responsive design][/img/mobile_sample.gif]
+
 ## Key Differences
 * Mobile responsive design
 * Accent color adjusted for better contrast
