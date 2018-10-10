@@ -6,11 +6,11 @@ A website recreation of my resume document using HTML and CSS, featuring a respo
 * CSS
 * FlexBox
 
-![A scrolling preview of the resume website on a mobile device to showcase the mobile responsive design](/img/mobile_sample.gif)
+<img src="/img/mobile_sample.gif" alt="A scrolling preview of the resume website on a mobile device to showcase the mobile responsive design" width="500px">
 
 ## Key Differences
 * Mobile responsive design
 * Accent color adjusted for better contrast
 * Links to relevant contact info
 
-<img src="/img/design.jpg" alt="Original Design Document" width="300">
+<img src="/img/design.jpg" alt="Original Design Document" width="300px">
