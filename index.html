@@ -10,17 +10,17 @@
   </head>
 
   <body>
-    <header>
-      <h1>Karen Fletcher</h1>
-      <p class="profession">Developer</p>
+    <header class="header">
+      <h1 class="header__name">Karen Fletcher</h1>
+      <p class="header__profession">Developer</p>
       <hr class="section-divider"> <!-- rework HR into css -->
-      <p>I am passionate about developing accessible and beautiful websites, teaching young girls to code, and relentlessly pursuing new skills.</p>
+      <p class="header__description">I am passionate about developing accessible and beautiful websites, teaching young girls to code, and relentlessly pursuing new skills.</p>
     </header>
 
     <main class="l-main">
 
       <aside class="bio-overview">
-        <address>
+        <address class="bio-overview__contact">
           <ul class="contact-info">
             <li class="contact-info__method">
               <img src="img/icons8-new-post-26.png" alt="" class="contact-info__icon"> <br />
@@ -42,7 +42,7 @@
         </address>
 
         <div>
-          <h2>Skills</h2>
+          <h2 class="bio-overview__title">Skills</h2>
           <hr class="section-title">
           <ul class="skills">
             <li>HTML</li>
@@ -64,7 +64,7 @@
         </div>
 
         <div>
-          <h2>Interests</h2>
+          <h2 class="bio-overview__title">Interests</h2>
           <hr class="section-title">
           <ul class="interests">
             <li>Semantic HTML</li>
@@ -81,8 +81,8 @@
         <div class="experience">
           <h2 class="experience__heading">Work Experience</h2>
           <div class="experience__role">
-            <h3>Developer</h3>
-            <h4>Metova, Inc</h4>
+            <h3 class="experience__role__title">Developer</h3>
+            <h4 class="experience__role__organization">Metova, Inc</h4>
           </div>
           <div class="experience__date-location">
             <h5 class="experience__date">01/2017 - Present</h5>
@@ -107,8 +107,8 @@
 
         <div class="experience">
           <div class="experience__role">
-            <h3>Android Development Student</h3>
-            <h4>Arkansas Coding Academy</h4>
+            <h3 class="experience__role__title">Android Development Student</h3>
+            <h4 class="experience__role__organization">Arkansas Coding Academy</h4>
           </div>
           <div class="experience__date-location">
             <h5 class="experience__date">08/2016 - 11/2016</h5>
@@ -138,13 +138,13 @@
           <div class="experience">
             <h2 class="experience__heading">Education</h2>
             <hr class="section-title">
-            <h3>Bachelor of Arts - Anthropology &amp; Art History</h3>
-            <h4>University of Arkansas, Fayetteville</h4>
+            <h3 class="experience__role__title">Bachelor of Arts - Anthropology &amp; Art History</h3>
+            <h4 class="experience__role__organization">University of Arkansas, Fayetteville</h4>
             <div>
               <h5 class="experience__date">08/2009 - 05/2013</h5>
-              <h5>Courses</h5>
+              <h5 class="experience__coursework">Courses</h5>
             </div>
-            <ul class="coursework experience__details">
+            <ul class="experience__coursework__classes experience__details">
               <li>History of arts in Italian and Northern European Renaissance, European Medieval, American Revolutionary and Civil War eras</li>
               <li>General and Organic Chemistry</li>
               <li>Cultural and Biological Anthropology, Archaeology</li>
