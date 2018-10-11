@@ -1,16 +1,16 @@
-# Resume
-A website recreation of my resume document using HTML and CSS, featuring a responsive, mobile first, accessible design.
+# R&eacute;sum&eacute;
+A website recreation of my r&eacute;sum&eacute; document using HTML and CSS, featuring a responsive, mobile first, accessible design.
 
 ## Technologies Utilized
 * HTML
 * CSS
-* FlexBox
+  * FlexBox for ease implementing layout scaling and element alignments
 
-<img src="/img/mobile_sample.gif" alt="A scrolling preview of the resume website on a mobile device to showcase the mobile responsive design" width="300">
+<img src="/img/mobile_sample.gif" alt="" width="300px">
 
 ## Key Differences
 * Mobile responsive design
 * Accent color adjusted for better contrast
 * Links to relevant contact info
 
-<img src="/img/design.jpg" alt="Original Design Document" width="300px">
+<img src="/img/design.jpg" alt="" width="300px">
