@@ -153,25 +153,16 @@
 
 .header__profession {
   color: #fff;
-  font-weight: lighter;
   font-size: 1.3em;
+  font-weight: lighter;
   margin-top: 1%;
 }
 
 @media only screen and (min-width: 768px) {
-
-  
-  .section-title {
-    border: 1px solid #28a598;
-    margin-left: 0;
-    max-width: 100%;
-    text-align: left;
-  }
-
   /* Document styles  */
   .l-body {
     margin-left: 50px;
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .bio-overview * {
@@ -249,9 +240,9 @@
 
   .experience__details__volunteerism {
     line-height: 2;
+    list-style: none;
     margin-bottom: 45px;
     padding-left: 0;
-    list-style: none;
   }
 
   .experience__details__volunteerism li {
