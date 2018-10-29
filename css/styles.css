@@ -41,8 +41,6 @@
 
 .experience__date {
   border-bottom: 1.5px solid #28a598;
-  padding-bottom: 5%;
-  width: 60%;
 }
 
 .header__profession {
@@ -82,7 +80,7 @@
   font-weight: 500;
 }
 
-.experience__date, .experience__location, .experience__coursework {
+.experience__date, .experience__location, .experience__date-education {
   color: #28a598;
   font-style: italic;
   font-weight: 400;
@@ -118,15 +116,38 @@
   padding: 0;
 }
 
-.experience__coursework__classes li, .experience__details__segment, .experience__details__volunteerism li {
+.experience__details__segment {
   margin-bottom: 5%;
+}
+
+.experience__date, .experience__date-education {
+  padding-bottom: 5%;
+  width: 60%;
 }
 
 .experience__details, .experience__details__volunteerism {
   line-height: 1.5;
-  list-style: square url('../img/icons8-unchecked-checkbox-10.png');
   margin: 0 15px 35px 15px;
   padding-left: 0;
+}
+
+.experience__details {
+  list-style: square url('../img/icons8-unchecked-checkbox-10.png');
+}
+
+.experience__details__volunteerism {
+  list-style: none;
+}
+
+.experience__details__volunteerism li {
+	margin-bottom: 15px;
+}
+
+.experience__details__volunteerism-highlight {
+  color: #8E8E8E;
+  font-style: italic;
+  line-height: 1.2;
+  margin-top: 0;
 }
 
 .interests li {
@@ -167,16 +188,11 @@
 
   .bio-overview * {
     margin-right: 5%;
-    padding-right: 5%;
-  }
-
-  /* columns */
-  .experience__coursework__classes {
-    columns: 2;
+    padding-right: 7%;
   }
 
   /* decorative lines */
-  .experience__date {
+  .experience__date, .experience__date-education {
     padding-bottom: 20px;
     width: 20%;
   }
@@ -224,9 +240,9 @@
   }
 
   /* lists */
-  .experience__coursework__classes li {
-    margin-bottom: 5%;
-    margin-right: 25%;
+
+  .experience__date-location {
+    margin-right: 150px;
   }
 
   .experience__details {
@@ -239,14 +255,19 @@
   }
 
   .experience__details__volunteerism {
-    line-height: 2;
     list-style: none;
+    font-size: 1.2em;
     margin-bottom: 45px;
     padding-left: 0;
   }
 
   .experience__details__volunteerism li {
-    margin-bottom: 10px;
+  	margin-bottom: 0;
+  }
+
+  .experience__details__volunteerism-highlight {
+    font-size: 0.8em;
+    margin-right: 100px;
   }
 
   .interests li, .skills li {

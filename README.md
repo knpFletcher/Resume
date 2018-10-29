@@ -4,13 +4,13 @@ A website recreation of my r&eacute;sum&eacute; document using HTML and CSS, fea
 ## Technologies Utilized
 * HTML
 * CSS
-  * FlexBox for ease implementing layout scaling and element alignments
+  * FlexBox for ease of implementation for layout scaling and element alignments
 
-<img src="/img/mobile_sample.gif" alt="" width="300px">
+<img src="/img/mobile_sample.gif" alt="" width="200px">
 
 ## Key Differences
 * Mobile responsive design
 * Accent color adjusted for better contrast
-* Links to relevant contact info
+* Interactive links to relevant contact info
 
 <img src="/img/design.jpg" alt="" width="300px">
