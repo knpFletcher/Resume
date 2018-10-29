@@ -1,147 +1,136 @@
+/* Document styles */
 * {
   font-family: 'Ubuntu', sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-address {
-  font-style: normal;
-}
-
-address .no-bullet-point {
-  margin-top: 0;
-}
-
-address li:nth-child(even) {
-  margin-bottom: 15px;
-}
-
-body {
+.l-body {
   background-color: #fff;
   margin: 0 30px;
 }
 
-h1 {
-  color: #fff;
-  font-weight: 500;
+.experiences {
+  margin-top: 25px;
 }
 
-h2 {
+/* contact */
+.bio-overview__contact {
+  font-style: normal;
+}
+
+.contact-info {
+  margin-top: 0;
+}
+
+.contact-info__icon {
+  width: 20px;
+}
+
+.contact-info__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contact-info__method {
+  margin-bottom: 15px;
+}
+
+/* decorative lines */
+.bio-overview__title, .experience__heading {
+  border-bottom: 2px solid #28a598;
+}
+
+.experience__date {
+  border-bottom: 1.5px solid #28a598;
+  padding-bottom: 5%;
+  width: 60%;
+}
+
+.header__profession {
+  border-bottom: 1.5px solid #fff;
+  padding-bottom: 15px;
+  width: 70%;
+}
+
+/* flexbox */
+.bio-overview {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.experience__date-location {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.l-main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* headings */
+.bio-overview__title, .experience__heading {
   color: #28a598;
   text-transform: uppercase;
 }
 
-h4 {
+.header__name {
   color: #fff;
   font-weight: 500;
 }
 
-h3 {
+.experience__date, .experience__location, .experience__coursework {
   color: #28a598;
-  font-weight: 600;
-  margin: 0;
+  font-style: italic;
+  font-weight: 400;
+  margin-top: 5px;
 }
 
-h5 {
+.experience__heading {
+  margin: 10px 0;
+}
+
+.experience__role__organization {
   color: #222;
   font-size: 1.2em;
   font-weight: 300;
   margin: 5px 0;
 }
 
-h6 {
+.experience__role__title {
   color: #28a598;
-  font-style: italic;
-  font-weight: 400;
+  font-weight: 600;
+  margin: 0;
 }
 
-header {
+.l-header {
   background-color: #28a598;
   margin-bottom: 25px;
   padding: 15px;
 }
 
-header p {
-  color: #fff;
+/* lists */
+.contact-info, .experience__details, .interests, .skills, .volunteerism {
+  list-style-type: none;
+  padding: 0;
 }
 
-header hr {
-  border: 1px solid #fff;
-  margin-left: 0;
-  text-align: left;
+.experience__coursework__classes li, .experience__details__segment, .experience__details__volunteerism li {
+  margin-bottom: 5%;
 }
 
-hr {
-  border: 1px solid #28a598;
-  margin-left: 0;
-  margin-bottom: 15px;
-  text-align: left;
-  width: 100%;
-}
-
-img {
-  width: 20px;
-}
-
-p {
-  color: #222;
-}
-
-#education-experience {
-  margin-bottom: 10px;
-}
-
-#work-2 {
-	margin-top: 25px;
-}
-
-#work-experience {
-  margin-bottom: 10px;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.date, .location {
-  margin: 5px 0;
-}
-
-.date-location {
-  display: flex;
-  font-size: 1.2em;
-  justify-content: space-between;
-  margin: 5px 0 15px 0;
-  max-height: 1.2em;
-}
-
-.education {
-  margin-top: 15px;
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 100%;
+.experience__details, .experience__details__volunteerism {
+  line-height: 1.5;
+  list-style: square url('../img/icons8-unchecked-checkbox-10.png');
+  margin: 0 15px 35px 15px;
+  padding-left: 0;
 }
 
 .interests li {
   border: 2px solid lightgrey;
-}
-
-.section-divider {
-  width: 50%;
-}
-
-.skills li {
-  background-color: #28a598;
-  color: #fff;
 }
 
 .interests li, .skills li {
@@ -152,62 +141,62 @@ p {
   text-align: center;
 }
 
-.no-bullet-point {
-  list-style-type: none;
-  padding: 0;
+.skills li {
+  background-color: #28a598;
+  color: #fff;
 }
 
-.right li {
-  margin-bottom: 5%;
+/* header contents */
+.header__description {
+  color: #fff;
 }
 
-.right ul {
-  line-height: 1.5;
-  list-style: square url('../img/icons8-unchecked-checkbox-10.png');
-  margin: 0 15px;
-  padding-left: 0;
+.header__profession {
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: lighter;
+  margin-top: 1%;
 }
 
 @media only screen and (min-width: 768px) {
-
-  /* for desktop */
-  body {
+  /* Document styles  */
+  .l-body {
     margin-left: 50px;
-    margin-right: 0px;
+    margin-right: 0;
   }
 
-  h2 {
-    margin: 40px 0 0;
+  .bio-overview * {
+    margin-right: 5%;
+    padding-right: 5%;
   }
 
-  header {
-    margin: 0 0 30px 5%;
-    padding: 5px 0 5px 30px;
-  }
-
-  #coursework {
+  /* columns */
+  .experience__coursework__classes {
     columns: 2;
   }
 
-  #courses_second, #courses_third {
-    margin-bottom: 10%;
+  /* decorative lines */
+  .experience__date {
+    padding-bottom: 20px;
+    width: 20%;
   }
 
-  #work-experience {
+  .header__profession {
+    padding-bottom: 15px;
+    width: 20%;
+  }
+
+  /* experiences */
+  .experience__heading {
     margin-top: 0;
   }
 
-  #work-2 {
-    margin-top: 25px;
+  /* flexbox */
+  .bio-overview {
+    flex-basis: 25%;
   }
 
-  .education {
-    font-size: .8em;
-    margin: 10px 0;
-    max-height: .8em;
-  }
-
-  .flex-container {
+  .l-main {
     align-items: stretch;
     flex-direction: row;
     justify-content: space-around;
@@ -215,45 +204,54 @@ p {
     width: 90%;
   }
 
+  .experiences {
+    flex-basis: 75%;
+    margin-top: 0;
+  }
+
+  /* headings */
+  .bio-overview__title {
+    margin: 40px 0 0;
+  }
+
+  .l-header {
+    margin: 0 0 30px 5%;
+    padding: 5px 0 5px 30px;
+  }
+
+  .header__name {
+    margin-bottom: 0;
+  }
+
+  /* lists */
+  .experience__coursework__classes li {
+    margin-bottom: 5%;
+    margin-right: 25%;
+  }
+
+  .experience__details {
+    line-height: 1.3;
+    margin-bottom: 45px;
+  }
+
+  .experience__details__segment {
+    margin: 0 150px 10px 0;
+  }
+
+  .experience__details__volunteerism {
+    line-height: 2;
+    list-style: none;
+    margin-bottom: 45px;
+    padding-left: 0;
+  }
+
+  .experience__details__volunteerism li {
+    margin-bottom: 10px;
+  }
+
   .interests li, .skills li {
     display: inline-block;
     margin: 0 5px 20px 0;
     padding: 5px 20px;
-  }
-
-  .left {
-    flex-basis: 25%;
-  }
-
-  .left * {
-    margin-right: 5%;
-    padding-right: 5%;
-  }
-
-  .right {
-    flex-basis: 75%;
-  }
-
-  .right li {
-    margin: 0 150px 10px 0;
-  }
-
-  .right ul {
-    line-height: 1.3;
-  }
-
-  .section-divider {
-    width: 20%;
-  }
-
-  .section-title {
-    border: 1px solid #28a598;
-    margin-left: 0;
-    max-width: 100%;
-    text-align: left;
-  }
-
-  .left hr {
-    max-width: 80%;
   }
 }
