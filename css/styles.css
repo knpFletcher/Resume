@@ -34,13 +34,18 @@
   margin-bottom: 15px;
 }
 
-/* decorative lines */
+/* decoration */
 .bio-overview__title, .experience__heading {
   border-bottom: 2px solid #28a598;
 }
 
 .experience__date {
   border-bottom: 1.5px solid #28a598;
+}
+
+.experience__details__segment-link {
+  color: #28a598;
+  text-decoration: none;
 }
 
 .header__profession {
