@@ -25,7 +25,8 @@
   width: 20px;
 }
 
-.contact-info__link {
+.contact-info__link,
+.experience__link {
   color: inherit;
   text-decoration: none;
 }
@@ -278,5 +279,26 @@
     display: inline-block;
     margin: 0 5px 20px 0;
     padding: 5px 20px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  p {
+    color: #fff;
+  }
+
+  .contact-info__method,
+  .experience__details__segment,
+  .experience__role__organization,
+  .experience__role__organization-name {
+    color: #fff;
+  }
+
+  .interests li {
+    background-color: lightgrey;
+  }
+
+  .l-body {
+    background-color: #333;
   }
 }
