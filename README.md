@@ -1,6 +1,10 @@
 # R&eacute;sum&eacute;
 A website recreation of my r&eacute;sum&eacute; document using HTML and CSS, featuring a responsive, mobile first, accessible design.
 
+Now with Dark Mode on available browsers!
+<img src="/img/darkMode.jpg" alt="" width="300px">
+
+
 ## Technologies Utilized
 * HTML
 * CSS
