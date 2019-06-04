@@ -1,0 +1,50 @@
+.bio-overview {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.bio-overview__contact {
+  font-style: normal;
+}
+
+.bio-overview__title {
+  color: var(--primary);
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--primary);
+}
+
+.contact-info {
+  margin-top: 0;
+}
+
+.contact-info__icon {
+  width: 20px;
+}
+
+.contact-info__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contact-info__method {
+  margin-bottom: 15px;
+}
+
+.interests li {
+  border: 2px solid lightgrey;
+}
+
+.interests li,
+.skills li {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.skills li {
+  color: var(--white);
+  background: var(--primary);
+}

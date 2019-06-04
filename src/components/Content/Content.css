@@ -1,0 +1,93 @@
+.experiences {
+  margin-top: 25px;
+}
+
+.experience__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.experience__date {
+  border-bottom: 1.5px solid var(--primary);
+}
+
+.experience__heading {
+  border-bottom: 2px solid var(--primary);
+}
+
+.experience__details__segment-link {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.experience__date-location,
+.experience__role__organization {
+  display: flex;
+  margin-bottom: 0;
+  justify-content: space-between;
+}
+
+.experience__date,
+.experience__location,
+.experience__date-education {
+  margin-top: 5px;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--primary);;
+}
+
+.experience__heading {
+  margin: 10px 0;
+}
+
+.experience__role__organization-name {
+  margin: 5px 0;
+  font-size: 1.2em;
+  font-weight: 300;
+  color: var(--grey);
+}
+
+.experience__role__title {
+  margin: 0;
+  font-weight: 600;
+  color: var(--primary);;
+}
+
+.experience__heading {
+  color: var(--primary);
+  text-transform: uppercase;
+}
+
+.experience__details__segment {
+  margin-bottom: 5%;
+}
+
+.experience__date, .experience__date-education {
+  width: 60%;
+  padding-bottom: 5%;
+}
+
+.experience__details, .experience__details__volunteerism {
+  line-height: 1.5;
+  padding-left: 0;
+  margin: 0 15px 35px 15px;
+}
+
+.experience__details {
+  list-style: square url('/images/icons8-unchecked-checkbox-10.png');
+}
+
+.experience__details__volunteerism {
+  list-style: none;
+}
+
+.experience__details__volunteerism li {
+  margin-bottom: 15px;
+}
+
+.experience__details__volunteerism-highlight {
+  margin-top: 0;
+  line-height: 1.2;
+  font-style: italic;
+  color: var(--grey-light);
+}

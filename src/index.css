@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+:root {
+  --white: #fff;
+  --grey: #222;
+  --grey-light: #8E8E8E;
+  --grey-medium: #333;
+  --primary: #28a598;
+  --font-stack: Ubuntu, sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0 30px;
+  font-size: 1rem;
+  font-family: var(--font-stack);
+  background: var(--white);
+}
+

@@ -1,0 +1,126 @@
+.l-main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.contact-info,
+.experience__details,
+.interests,
+.skills,
+.volunteerism {
+  padding: 0;
+  list-style-type: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .l-body {
+    margin: 0;
+  }
+
+  .bio-overview * {
+    margin-right: 5%;
+    padding-right: 7%;
+  }
+
+  .experience__date, .experience__date-education {
+    width: 20%;
+    padding-bottom: 20px;
+  }
+
+  .header__profession {
+    width: 20%;
+    padding-bottom: 15px;
+  }
+
+  .experience__heading {
+    margin-top: 0;
+  }
+
+  .experience__role__organization {
+    margin-top: 0;
+  }
+
+  .bio-overview {
+    flex-basis: 25%;
+  }
+
+  .l-main {
+    width: 90%;
+    margin: auto;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+  }
+
+  .experiences {
+    margin-top: 0;
+    flex-basis: 75%;
+  }
+
+  .bio-overview__title {
+    margin: 40px 0 0;
+  }
+
+  .l-header {
+    margin: 0 0 30px 5%;
+    padding: 5px 0 5px 30px;
+  }
+
+  .header__name {
+    margin-bottom: 0;
+  }
+
+  .experience__details {
+    line-height: 1.3;
+    margin-bottom: 45px;
+  }
+
+  .experience__details__segment {
+    margin: 0 150px 10px 0;
+  }
+
+  .experience__details__volunteerism {
+    margin-bottom: 45px;
+    padding-left: 0;
+    font-size: 1.2em;
+    list-style: none;
+  }
+
+  .experience__details__volunteerism li {
+    margin-bottom: 0;
+  }
+
+  .experience__details__volunteerism-highlight {
+    font-size: 0.8em;
+    margin-right: 100px;
+  }
+
+  .interests li, .skills li {
+    padding: 5px 20px;
+    margin: 0 5px 20px 0;
+    display: inline-block;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  p {
+    color: var(--white);
+  }
+
+  .contact-info__method,
+  .experience__details__segment,
+  .experience__role__organization,
+  .experience__role__organization-name {
+    color: var(--white);
+  }
+
+  .interests li {
+    background-color: lightgrey;
+  }
+
+  .l-body {
+    background-color: var(--grey-medium);
+  }
+}

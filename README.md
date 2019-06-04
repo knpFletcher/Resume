@@ -1,20 +1,26 @@
 # R&eacute;sum&eacute;
-A website recreation of my r&eacute;sum&eacute; document using HTML and CSS, featuring a responsive, mobile first, accessible design.
+
+A website recreation of my r&eacute;sum&eacute; document using ReactJS, featuring a responsive, mobile first, accessible design.
 
 Now with Dark Mode on available browsers!
 
-<img src="/img/darkMode.jpg" alt="" width="300px">
+![Dark mode](./public/images/darkMode.jpg "Dark mode")
 
 ## Technologies Utilized
+
+* ReactJS
 * HTML
 * CSS
   * FlexBox for ease of implementation for layout scaling and element alignments
 
-<img src="/img/mobile_sample.gif" alt="" width="200px">
+![Mobile Sample](./public/images/mobile_sample.gif "Mobile Sample")
+
+Please use `yarn install` and `yarn start` commands to execute this project locally.
 
 ## Key Differences
+
 * Mobile responsive design
 * Accent color adjusted for better contrast
 * Interactive links to relevant contact info
 
-<img src="/img/design.jpg" alt="" width="300px">
+![Design](./public/images/design.jpg "Design")
