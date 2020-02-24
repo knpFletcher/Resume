@@ -303,6 +303,27 @@
 }
 
 @media (prefers-color-scheme: dark) {
+  .l-header {
+    background-color: var(--accent);
+  }
+
+  .bio-overview__title,
+  .experience__date,
+  .experience__heading {
+    border-bottom-color: var(--accent);
+  }
+
+  .bio-overview__title,
+  .experience__date,
+  .experience__date-education,
+  .experience__details__segment-link,
+  .experience__heading,
+  .experience__location,
+  .experience__role__title {
+    color: var(--accent);
+  }
+
+
   p {
     color: #fff;
   }
