@@ -1,4 +1,9 @@
 /* Document styles */
+:root {
+  --primary: #527A86;
+  --accent: #28a598;
+}
+
 * {
   font-family: 'Ubuntu', sans-serif;
 }
@@ -31,21 +36,27 @@
   text-decoration: none;
 }
 
+.contact-info__link:hover,
+.experience__link:hover {
+  color: var(--accent);
+  transition: all .3s ease;
+}
+
 .contact-info__method {
   margin-bottom: 15px;
 }
 
 /* decoration */
 .bio-overview__title, .experience__heading {
-  border-bottom: 2px solid #28a598;
+  border-bottom: 2px solid var(--primary);
 }
 
 .experience__date {
-  border-bottom: 1.5px solid #28a598;
+  border-bottom: 1.5px solid var(--primary);
 }
 
 .experience__details__segment-link {
-  color: #28a598;
+  color: var(--primary);
   text-decoration: none;
 }
 
@@ -77,7 +88,7 @@
 
 /* headings */
 .bio-overview__title, .experience__heading {
-  color: #28a598;
+  color: var(--primary);
   text-transform: uppercase;
 }
 
@@ -87,7 +98,7 @@
 }
 
 .experience__date, .experience__location, .experience__date-education {
-  color: #28a598;
+  color: var(--primary);
   font-style: italic;
   font-weight: 400;
   margin-top: 5px;
@@ -105,13 +116,13 @@
 }
 
 .experience__role__title {
-  color: #28a598;
+  color: var(--primary);
   font-weight: 600;
   margin: 0;
 }
 
 .l-header {
-  background-color: #28a598;
+  background-color: var(--primary);
   margin-bottom: 25px;
   padding: 15px;
 }
@@ -169,8 +180,17 @@
 }
 
 .skills li {
-  background-color: #28a598;
+  background-color: var(--primary);
+  border: 2px solid var(--primary);
   color: #fff;
+}
+
+.interests li:hover,
+.skills li:hover {
+  background-color: var(--accent);
+  border: 2px solid var(--accent);
+  color: #fff;
+  transition: all .3s ease;
 }
 
 /* header contents */
@@ -300,5 +320,15 @@
 
   .l-body {
     background-color: #333;
+  }
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+  .contact-info__link:hover,
+  .experience__link:hover,
+  .interests li:hover,
+  .skills li:hover {
+    transition: none;
   }
 }

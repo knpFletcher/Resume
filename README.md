@@ -18,3 +18,5 @@ Now with Dark Mode on available browsers!
 * Interactive links to relevant contact info
 
 <img src="/img/design.jpg" alt="" width="300px">
+
+[Original template found on Novoresume](https://novoresume.com/)
